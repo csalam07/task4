@@ -1,0 +1,76 @@
+.string {
+  margin: 1em;
+}
+.string__header {
+  text-align: center;
+  font-size: 2em;
+  padding: 1.5em;
+  color: whitesmoke;
+}
+
+.string__title {
+  font-size: 1em;
+  font-style: italic;
+  text-decoration: underline;
+  color: red;
+}
+p {
+  color: orange;
+}
+
+.operations__content {
+  display: flex;
+  align-items: center;
+  padding: 1em;
+}
+.operation__subject {
+  font-size: 1.1em;
+}
+
+.operation__result {
+  margin-left: 1em;
+}
+
+@media screen and (max-width: 768px) {
+  .string__header {
+    font-size: 1.5em;
+  }
+  .string__title {
+    font-size: 1.3em;
+  }
+  .operation__subject {
+    font-size: 1em;
+  }
+  p {
+    font-size: 1em;
+  }
+}
+@media screen and (max-width: 568px) {
+  .string__header {
+    font-size: 1em;
+  }
+  .string__title {
+    font-size: 0.8em;
+  }
+  .operation__subject {
+    font-size: 0.6em;
+  }
+  p {
+    font-size: 0.6em;
+  }
+}
+
+@media screen and (max-width: 368px) {
+  .string__header {
+    font-size: 0.9em;
+  }
+  .string__title {
+    font-size: 0.6em;
+  }
+  .operation__subject {
+    font-size: 0.6em;
+  }
+  p {
+    font-size: 0.6em;
+  }
+}
